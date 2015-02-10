@@ -10,11 +10,11 @@ byte mac[] = { 0xAE, 0xBD, 0xBA, 0xCE, 0xFE, 0xAD }; //Change for your unique MA
 byte server[] = { 54, 191, 2, 249 };  //C2M MQTT Server
 char ssid[] = "sreeshs"; // Replace for The Wireless network SSID (name) 
 char pass[] = "123456789"; // Replace for The network password
-char topic[] = "Arduino_UNO";  //Replace for the Topic of your specific project!
+char topic[] = "Arduino_UNO";
 int status = WL_IDLE_STATUS; // the Wifi radio's status
 
-char apikey[]="gEwsNreo/a@UCbxfaZX1rlVJMSz1dJHtz/STqutN9vE="; //Replace for your own API
-char feedid[]="/xJRepEH3yqn1YUmZQecFOOnCsHuUWThbU1GsmTRsEw="; //Replace for your own FeedID
+char apikey[]=""; //Replace for your own API
+char feedid[]=""; //Replace for your own FeedID
 
 char str [201];
 char buffer[5];
