@@ -1,7 +1,6 @@
 #include <WiFi.h>
 #include <WiFiClient.h>
 #include <WiFiServer.h>
-#include <dht11.h>     //Library of the Humidity Sensor
 #include <PubSubClient.h>
 
 
